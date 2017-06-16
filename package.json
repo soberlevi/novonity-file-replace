@@ -1,0 +1,23 @@
+{
+  "name": "novonity-file-replace",
+  "version": "1.0.5",
+  "description": "file-replace",
+  "main": "file-replace.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "replace",
+    "string",
+    "to",
+    "file"
+  ],
+  "author": "soberlevi",
+  "bin": {
+    "novonity-file-replace": "./bin.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
