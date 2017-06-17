@@ -1,6 +1,6 @@
 {
   "name": "novonity-file-replace",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "file-replace",
   "main": "file-replace.js",
   "scripts": {
@@ -12,9 +12,13 @@
     "to",
     "file"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soberlevi/novonity-file-replace"
+  },
   "author": "soberlevi",
   "bin": {
-    "novonity-file-replace": "./bin.js"
+    "novonity-file-replace": "cmd.js"
   },
   "license": "ISC",
   "dependencies": {

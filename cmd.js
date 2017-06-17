@@ -1,11 +1,13 @@
 #!/usr/bin/env node
-
-let fileReplace = require('../');
+/**
+ * Created by soberlevi on 2017/6/17.
+ */
+let fileReplace = require('.');
 let minimist = require('minimist');
 let argv = minimist(process.argv.slice(2), {
     boolean: ['r']
 });
-console.log("1111:" + JSON.stringify(argv));
+
 let file = argv.f;
 let patterns = argv.p;
 let replace = argv.r;
@@ -25,4 +27,3 @@ if (replace) {
         }
     }
 })();
-
