@@ -7,7 +7,7 @@ $ npm i novonity-file-replace
 replace is a command line utility for replace the javascript object file, the javascript object format is dictionaries,the file is generally system configuration file
 **For example:**
 ```javascript
-file-replace -f dist/config.js -p [{'k':'debug','v':false}] -r
+file-replace -f dist/config.js -p "[{'k':'debug','v':false}]" -r
 ```
 **options include**
 - -f which file would be modified
