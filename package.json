@@ -1,6 +1,6 @@
 {
   "name": "novonity-file-replace",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "file-replace",
   "main": "file-replace.js",
   "scripts": {
