@@ -1,7 +1,3 @@
-
-.idea/misc.xml
-.idea/modules.xml
-.idea/novonity-file-replace.iml
-.idea/vcs.xml
-.idea/workspace.xml
-.idea/watcherTasks.xml
+.idea
+node_modules
+test
